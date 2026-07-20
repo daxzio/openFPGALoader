@@ -161,6 +161,7 @@ if tool in ["ise", "vivado"]:
         "xc7vx330tffg1157" : "xc7v_ffg1157",
         "xcku040-ffva1156" : "xcku040_ffva1156",
         "xcku060-ffva1156" : "xcku060_ffva1156",
+        "xcku095-ffva1156" : "xcku095_ffva1156",
         "xcvu9p-flga2104"  : "xcvu9p_flga2104",
         "xcvu37p-fsvh2892" : "xcvu37p_fsvh2892",
         "xcku3p-ffva676"   : "xcku3p_ffva676",
@@ -226,7 +227,7 @@ if tool in ["ise", "vivado"]:
                 tool_options = {"part": part + "-2-e"}
             elif part == "xcvu37p-fsvh2892":
                 tool_options = {"part": part + "-2L-e"}
-            elif part in ["xcku040-ffva1156", "xcku060-ffva1156"]:
+            elif part in ["xcku040-ffva1156", "xcku060-ffva1156", "xcku095-ffva1156"]:
                 tool_options = {"part": part + "-2-e"}
                 parameters["secondaryflash"] = {
                     "datatype"    : "int",

@@ -12,7 +12,7 @@ XILINX_PARTS := xc3s500evq100 \
 	xcku3p-ffva676 \
 	xcku3p-ffvb676 \
 	xc7vx330tffg1157 \
-	xcku040-ffva1156 xcku060-ffva1156 \
+	xcku040-ffva1156 xcku060-ffva1156 xcku095-ffva1156 \
 	xcku5p-ffvb676 \
 	xcvu9p-flga2104 xcvu37p-fsvh2892 \
 	xcau7p-sbvc484 xcau10p-ffvb676 \

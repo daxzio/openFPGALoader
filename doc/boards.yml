@@ -111,6 +111,13 @@
   Memory: OK
   Flash: OK
 
+- ID: alinx_ax7050
+  Description: ALINX AX7050 Spartan-7 FPGA Dev Board
+  URL: https://www.en.alinx.com/Product/FPGA-Development-Boards/Spartan-7/AX7050.html
+  FPGA: Spartan7 xc7s50fgga484
+  Memory: OK
+  Flash: OK
+
 - ID: alinx_ax7101
   Description: ALINX AX/7101
   URL: https://alinx.com/en/detail/494
